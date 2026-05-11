@@ -15,7 +15,8 @@
     "bannerUrl":"banner.png",
     "githubRepos":[
         "pasocommate/AunCast",
-        "pasocommate/RenderMate"
+        "pasocommate/RenderMate",
+        "pasocommate/VRCAvatarLatencyProbe"
     ],
     "packages":[
     ]
