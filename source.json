@@ -14,6 +14,7 @@
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
+        "pasocommate/AunCast",
         "pasocommate/RenderMate"
     ],
     "packages":[
