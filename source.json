@@ -1,7 +1,7 @@
 {
     "name":"PasocomMate",
     "id":"tokyo.chigiri.pasocommate.vpm-listing",
-    "url":"https://pasocommate.github.io/vpm-listing/index.json",
+    "url":"https://pasocommate.chigiri.tokyo/index.json",
     "author":{
         "email":"chigirits@gmail.com",
         "name":"Chigiri Tsutsumi",
@@ -9,7 +9,7 @@
     },
     "description":"PasocomMate's listing of VRChat packages",
     "infoLink":{
-        "url":"http://github.com/pasocommate/vpm-listing",
+        "url":"http://pasocommate.github.com",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
