@@ -13,6 +13,7 @@
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
+        "pasocommate/AvpVideoStub",
         "pasocommate/AunCast",
         "pasocommate/RenderMate",
         "pasocommate/VRCAvatarLatencyProbe"
