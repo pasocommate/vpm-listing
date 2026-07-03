@@ -1,9 +1,10 @@
 name: Build Repo Listing
 
-on: 
+on:
+  # Triggered manually, and by package repos on release via createWorkflowDispatch.
   workflow_dispatch:
   push:
-    branches: main
+    branches: [main]
     paths:
       - source.json
       - Website/index.json
@@ -15,10 +16,11 @@ permissions:
   pages: write
   id-token: write
   
-# Allow one concurrent deployment
+# Allow only one concurrent deployment, but let in-progress deployments
+# finish — cancelling a Pages deploy mid-flight can leave it published-but-stale.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
   
 env:
   listPublishDirectory: Website
